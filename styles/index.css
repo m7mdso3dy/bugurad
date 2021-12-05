@@ -1,0 +1,60 @@
+header {
+  background-image: url(../imgs/Rectangle\ 21.png),
+    url(../imgs/new-homepage-top-bg.png);
+  color: #ffffff;
+}
+nav {
+  padding: 0 !important;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.header-info {
+  text-align: center;
+}
+.header-info h1 {
+  font-size: 6rem;
+}
+.header-info h2 {
+  font-size: 3rem;
+}
+.btn-danger {
+  font-size: 2rem;
+  background-color: #a3041d;
+  border-color: #a3041d;
+}
+
+.achives > ul {
+  border-top: 6px solid #fff;
+  margin-top: 4.25rem;
+  padding-top: 1.5rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4.25rem;
+}
+.achives > ul > li {
+  text-align: center;
+}
+.achives > ul > li > span {
+  display: block;
+}
+.achives > ul > li + li {
+  margin-left: 11.25rem;
+}
+
+.extra-info {
+  font-size: 2rem;
+}
+.about__heading {
+  font-size: 3rem;
+}
+.text-danger {
+  color: #a3041d !important;
+}
+.cs-btn:hover {
+  transition: 0.25s ease-in-out;
+  background-color: #a3041d !important;
+  color: #fff !important;
+}
