@@ -34,15 +34,15 @@ nav {
   justify-content: center;
   padding-bottom: 4.25rem;
 }
-.achives > ul > li {
-  text-align: center;
-}
 .achives > ul > li > span {
   display: block;
 }
-.achives > ul > li + li {
-  margin-left: 11.25rem;
+.achives > ul > li {
+  text-align: center;
 }
+/* .achives > ul > li + li {
+  margin-left: 11.25rem;
+} */
 
 .extra-info {
   font-size: 2rem;
@@ -57,4 +57,90 @@ nav {
   transition: 0.25s ease-in-out;
   background-color: #a3041d !important;
   color: #fff !important;
+}
+.mb-5 {
+  margin-bottom: 4.25rem !important;
+}
+.layer {
+  position: relative;
+}
+.layer > img {
+  z-index: 5;
+}
+.inner-layer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 10;
+  background-image: url(../imgs/Rectangle\ 302.png);
+}
+
+.heading-primary::after {
+  content: "";
+  display: block;
+  width: 5.75rem;
+  height: 0.25rem;
+  border-radius: 20px;
+  box-shadow: 0.3px 0.3px 6px var(--transparent-red);
+  background: #a3041d;
+  margin: 10px auto;
+}
+.whychooseus > .container > .card-group > .card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 30px;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+/* .whychooseus > .container > .card-group > .card::after {
+  content: "";
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -1px;
+  background-color: black;
+} */
+.whychooseus > .container > .card-group > .card > * {
+  margin-bottom: 20px;
+}
+.whychooseus > .container > .card-group > .card:nth-child(odd) {
+  clip-path: polygon(100% 0, 100% 65%, 49% 72%, 0 65%, 0 0);
+
+  background-image: linear-gradient(
+    212deg,
+    #a3041d 0%,
+    #a3041d 50%,
+    #bf0a26 50%
+  );
+  margin-top: 40px;
+  z-index: 0;
+}
+.whychooseus > .container > .card-group > .card:nth-child(1) {
+  position: relative;
+  left: 4px;
+}
+.whychooseus > .container > .card-group > .card:nth-child(3) {
+  position: relative;
+  right: 12px;
+}
+.whychooseus > .container > .card-group > .card:nth-child(2) {
+  clip-path: polygon(100% 0, 100% 73%, 49% 89%, 0 73%, 0 0);
+
+  padding-bottom: 460px;
+  z-index: 5;
+  background-image: linear-gradient(
+    230deg,
+    #f7f7f7 0%,
+    #f7f7f7 50%,
+    rgba(162, 162, 162, 0.15) 50%
+  );
+}
+.whychooseus > .container > .card-group > .card > p {
+  margin-top: 62px;
 }
