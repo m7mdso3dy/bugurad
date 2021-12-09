@@ -182,3 +182,19 @@ footer {
 .lead {
   font-size: 1.5rem;
 }
+.contact-us {
+  background-image: linear-gradient(
+    188deg,
+    #a3041d 0%,
+    #a3041d 50%,
+    #bf0a26 50%
+  );
+}
+.charity-contact {
+  background-image: linear-gradient(
+    208deg,
+    #a3041d 0%,
+    #a3041d 50%,
+    #bf0a26 50%
+  );
+}
