@@ -172,6 +172,9 @@ footer {
   background-image: url(../imgs/background-footer.png);
   background-size: cover;
 }
+.trust {
+  background-color: #f7f7f7;
+}
 .change-color-w {
   filter: invert(99%) sepia(68%) saturate(1%) hue-rotate(78deg) brightness(113%)
     contrast(101%);
