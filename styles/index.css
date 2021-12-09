@@ -179,3 +179,6 @@ footer {
   filter: invert(99%) sepia(68%) saturate(1%) hue-rotate(78deg) brightness(113%)
     contrast(101%);
 }
+.lead {
+  font-size: 1.5rem;
+}
