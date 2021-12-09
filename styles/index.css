@@ -164,3 +164,11 @@ nav {
 .price-item > p {
   border-bottom: 2px solid black;
 }
+.ack-p {
+  margin: 0 5.75rem;
+  font-size: 1.75rem;
+}
+.change-color-w {
+  filter: invert(99%) sepia(68%) saturate(1%) hue-rotate(78deg) brightness(113%)
+    contrast(101%);
+}
