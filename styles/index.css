@@ -168,6 +168,10 @@ nav {
   margin: 0 5.75rem;
   font-size: 1.75rem;
 }
+footer {
+  background-image: url(../imgs/background-footer.png);
+  background-size: cover;
+}
 .change-color-w {
   filter: invert(99%) sepia(68%) saturate(1%) hue-rotate(78deg) brightness(113%)
     contrast(101%);
