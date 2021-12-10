@@ -198,3 +198,7 @@ footer {
     #bf0a26 50%
   );
 }
+.approach,
+.Acknowledgments {
+  background-image: url(../imgs/background-2.png);
+}
