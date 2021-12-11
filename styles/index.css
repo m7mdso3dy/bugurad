@@ -71,16 +71,6 @@ nav {
   background-image: url(../imgs/Rectangle\ 302.png);
 }
 
-.heading-primary::after {
-  content: "";
-  display: block;
-  width: 5.75rem;
-  height: 0.25rem;
-  border-radius: 20px;
-  box-shadow: 0.3px 0.3px 6px var(--transparent-red);
-  background: #a3041d;
-  margin: 10px auto;
-}
 .whychooseus > .container > .row > .card {
   box-sizing: border-box;
   display: flex;
@@ -198,7 +188,6 @@ footer {
     #bf0a26 50%
   );
 }
-.approach,
-.Acknowledgments {
-  background-image: url(../imgs/background-2.png);
+.card-body {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
 }

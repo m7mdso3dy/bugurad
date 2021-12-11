@@ -14,6 +14,11 @@
 
     <title>About Us</title>
     <style>
+        .app-img  img{
+            width: 76px;
+            height: 76px;
+        }
+         
         header {
             position: relative;
             background-image: url(imgs/Rectangle\ 227.png), url(imgs/millennial-asia-businessmen-businesswomen-meeting-brainstorming-ideas-about-new-paperwork-project-colleagues-working-together-planning-success-strategy-enjoy-teamwork-small-modern-night-of.png);
@@ -52,16 +57,10 @@
 
 <body>
     <header class="pb-5 d-flex flex-column justify-content-center align-items-center">
-        <a href="#about-us">
-
-            <div class="arrow-down">
-                <img src="imgs/ic_arrow_downward_24px.svg" alt="">
-            </div>
-        </a>
         <nav class="w-100 navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="imgs/يبب.png" alt="" width="180" height="208">
+                    <img src="imgs/يبب.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,7 +90,7 @@
             </p>
         </section>
     </header>
-    <section class="about-us pt-5 ">
+    <section class="about-us pt-5  ">
         <div class="container">
             <h2 class="
                                                                 about__heading
@@ -112,24 +111,27 @@
         </div>
         <section id="about-us" class="">
             <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-md p-5">
-                        <h2 class="text-danger" >What We Do?</h2>
-                        <p class="lead">
-                            We are an Information Security Solutions provider with expertise and demonstrated experience.
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md p-5 text-center">
+                        <p class="lead fw-bold">
+                            We provide Information Security Consultation Services for our clients to help them secure their
+                            <br> businesses.
+                        <br> By performing different Security Assessments on the scope, we can identify Security Vulnerabilities
+                        <br> on your Network, Application, Code and Analyze the Risk and its Impact on the business. Then we
+                        <br> find the best Mitigation for the discovered Vulnerabilities and deliver you a very detailed report
+                        <br> including all the details you would need.
+
                         </p>
-                        <p>
-                            Buguard is a leading startup in the Cyber Security field, consists of a team of talented Offensive Cyber Security
-                            Experts.
-                            We provide Cyber Security Consultation services for the most high profile businesses to help them secure their business.
-                            By performing different Security Assessments on the scope (Business workflow & Technical Details), we are able to
-                            identify Security Vulnerabilities which exists on your Network, Application and Source Code, Analyzing the Risk and its
-                            Impact on the Business and finding the best Mitigation for every discovered Vulnerability and finally deliver you a very
-                            detailed report including all the details that you would need to understand, reproduce and mitigate the Security Issues.
+                        <p class="lead fw-bold">
+                            Buguard is a multi-award-winning supplier of Application Security Assessments and GRC services.
+                            <br> We guarantee our clients are equipped to continually prevent, identify, and respond to cyberattacks
+                            <br> by utilizing our awareness of attackers' techniques to penetrate defenses, in-depth knowledge of the
+                            <br> newest security tools, and a dedication to innovation.
+                            <br> Buguard dedicates to assisting businesses in protecting their technology, information, and people.
+                            <br> Our customized services, along with our industry-leading cyber security knowledge, offer a
+                            <br> comprehensive solution to a wide range of cyber security issues.
+
                         </p>
-                    </div>
-                    <div class="col-md">
-                        <img src="imgs/3567801.png" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
@@ -137,7 +139,7 @@
 
         </div>
     </section>
-    <section id="awards-imgs" class="values py-5 bg-light">
+    <section class="values py-5 bg-light">
         <h2 class="
                                                                         about__heading
                                                                         heading-primary
@@ -197,7 +199,7 @@
         </h2>
         <div class="container">
             <div class="row gy-5">
-                <div class="col-sm-6">
+                <div class="col-sm-6 app-img">
                     <div class="card bg-light">
                         <div class="card-body d-flex align-items-center ">
                             <img class="img-fluid d-inline-block" src="imgs/vec2.png" alt="">
@@ -205,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 app-img">
                     <div class="card bg-light">
                         <div class="card-body d-flex align-items-center ">
                             <img class="img-fluid d-inline-block" src="imgs/vec5.png" alt="">
@@ -213,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 app-img">
                     <div class="card bg-light">
                         <div class="card-body d-flex align-items-center ">
                             <img class="img-fluid d-inline-block" src="imgs/vec4.png" alt="">
@@ -221,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 app-img">
                     <div class="card bg-light">
                         <div class="card-body d-flex align-items-center ">
                             <img class="img-fluid d-inline-block" src="imgs/hacker-(2).png" alt="">
@@ -232,7 +234,7 @@
             </div>
         </div>
     </section>
-    <section class="statics bg-light py-5">
+    <section class="statics  bg-light py-5">
         <h2 class="
                                                                                     about__heading
                                                                                     heading-primary
