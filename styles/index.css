@@ -118,10 +118,10 @@ nav {
 }
 @media screen and (min-width: 1200px) {
   .header-info h1 {
-    font-size: 6rem;
+    margin-bottom: 24px;
   }
   .header-info h2 {
-    font-size: 3rem;
+    margin-bottom: 40px;
   }
   .whychooseus > .container > .row > .card:nth-child(2) {
     clip-path: polygon(100% 0, 100% 73%, 49% 89%, 0 73%, 0 0);
@@ -191,6 +191,10 @@ footer {
 .card-body,
 form {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.card-body:hover {
+  box-shadow: 0 3px 6px 0 #a3041d;
 }
 .methodly-items ul {
   list-style: none;
@@ -208,4 +212,7 @@ form {
   width: 1em;
   margin-left: -1em;
   top: -12px;
+}
+.navbar-nav .nav-link {
+  font-size: 28px;
 }
