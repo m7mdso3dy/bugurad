@@ -37,11 +37,11 @@ const animate = () => {
     medals[1].classList.add('medals-2-animate');
 
 }
-if (window.pageYOffset >= whyChooseUs.offsetTop - 600) {
+if (window.pageYOffset >= whyChooseUs.offsetTop - 300) {
         animate();
     }
 window.addEventListener('scroll', () => {
-    if (window.pageYOffset >= whyChooseUs.offsetTop - 600) {
+    if (window.pageYOffset >= whyChooseUs.offsetTop - 300) {
         animate();
     }
     

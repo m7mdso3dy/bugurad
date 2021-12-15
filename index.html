@@ -14,8 +14,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="styles/index.css">
-        <link rel="stylesheet" href="styles/animate.css">
         
         
 
@@ -317,7 +317,7 @@
             </div>
         </div>
     </section>
-    <section id="services" class="services py-5 bg-light">
+    <section id="services" class="services overflow py-5 bg-light">
         <h2 class="
                             about__heading
                             heading-primary
@@ -336,7 +336,7 @@
         </h2>
         <div class="container text-center">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div data-wow-duration="1s" class="col wow fadeInLeft">
+                <div data-wow-duration="1s" class="col wow animate__fadeInTopLeft">
                     <div class="card">
                         <div class="layer">
                             <img src="imgs/c374049d-4e4c-45c9-b88a-6798c4c51003.png" class="card-img-top" alt="...">
@@ -350,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-wow-duration="1s" class="col wow fadeInDown">
+                <div data-wow-duration="1s" class="col wow animate__fadeInDown">
                     <div class="card">
                         <div class="layer">
                             <img src="imgs/iStock-1194430861-1-2.png" class="card-img-top" alt="...">
@@ -364,7 +364,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-wow-duration="1s" class="col wow fadeInRight">
+                <div data-wow-duration="1s" class="col wow animate__fadeInTopRight">
                     <div class="card">
                         <div class="layer">
                             <div class="inner-layer"></div>
@@ -378,7 +378,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-wow-duration="1s" class="col wow fadeInLeft">
+                <div data-wow-duration="1s" class="col wow animate__fadeInBottomLeft">
                     <div class="card">
                         <div class="layer">
                                                     <img src="imgs/tn-webinar-advanced-threat-hunting-incident-response-enterprise-edr-featured.png" class="card-img-top"
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-wow-duration="1s" class="col wow fadeInUp">
+                <div data-wow-duration="1s" class="col wow animate__fadeInUp">
                     <div class="card">
                         <div class="layer">
                             <img src="imgs/consultancy hero.png" class="card-img-top" alt="...">
@@ -407,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-wow-duration="1s" class="col wow fadeInRight">
+                <div data-wow-duration="1s" class="col wow animate__fadeInBottomRight">
                     <div class="card">
                             <div class="layer">
                                 <img src="imgs/outsourcing-text-keyboard-button.png" class="card-img-top" alt="...">
@@ -458,7 +458,7 @@
             </div>
         </div>
     </section>
-    <section class="wow fadeInDown  trust py-5" data-wow-duration="1s">
+    <section  class="  overflow trust py-5">
         <h2 class="
                                             about__heading
                                             heading-primary
@@ -469,13 +469,15 @@
                                             text-danger
                                             fw-bold
                                             text-center
+                                            wow
+                                            animate__fadeInDown
+                                            
                         
                         
-                        
-                                          ">
+                                          " data-wow-duration="1s">
             They trust Us
         </h2>
-        <div id="carouselExampleIndicators-1" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators-1" class="carousel slide wow animate__fadeInRight " data-bs-ride="carousel" data-wow-duration="1s" >
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -608,7 +610,7 @@
             </div>
         </div>
     </section>
-    <section class="testmonials py-5">
+    <section class="testmonials overflow py-5">
         <h2 class="
                                                     about__heading
                                                     heading-primary
@@ -619,18 +621,19 @@
                                                     text-danger
                                                     fw-bold
                                                     text-center
+                                                    wow
+                                                    animate__fadeInDown
                                 
                                 
-                                
-                                                  ">
+                                                  " data-wow-duration="1s">
             Clients Feedback
         </h2>
         <div class="container px-3 px-sm-5 my-5 text-center">
-            <div class="owl-carousel ">
-                <div class="item  first prev">
+            <div class="owl-carousel wow animate__fadeInUp " data-wow-duration="1s">
+                <div class="item  first prev ">
                     <div class="card card-body border-0 py-3 px-4">
                         <div class="row justify-content-center"> 
-                            <h3>BUGUARD CEO</h3> 
+                            <h3>BUGUARD CEO 1</h3> 
                         </div>
                         <h6 class="mb-3 mt-2">Youssef</h6>
                         <p class="content mb-5 mx-2">
@@ -642,7 +645,19 @@
                 <div class="item  show">
                     <div class="card card-body border-0 py-3 px-4">
                         <div class="row justify-content-center">
-                            <h3>BUGUARD CEO</h3>
+                            <h3>BUGUARD CEO 2</h3>
+                        </div>
+                        <h6 class="mb-3 mt-2">Youssef</h6>
+                        <p class="content mb-5 mx-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua Ut enim.
+                        </p>
+                    </div>
+                </div>
+                <div class="item  next ">
+                    <div class="card card-body border-0 py-3 px-4">
+                        <div class="row justify-content-center">
+                            <h3>BUGUARD CEO 3</h3>
                         </div>
                         <h6 class="mb-3 mt-2">Youssef</h6>
                         <p class="content mb-5 mx-2">
@@ -654,7 +669,7 @@
                 <div class="item  next">
                     <div class="card card-body border-0 py-3 px-4">
                         <div class="row justify-content-center">
-                            <h3>BUGUARD CEO</h3>
+                            <h3>BUGUARD CEO 4</h3>
                         </div>
                         <h6 class="mb-3 mt-2">Youssef</h6>
                         <p class="content mb-5 mx-2">
@@ -663,22 +678,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="item  next">
+                <div class="item  last">
                     <div class="card card-body border-0 py-3 px-4">
                         <div class="row justify-content-center">
-                            <h3>BUGUARD CEO</h3>
-                        </div>
-                        <h6 class="mb-3 mt-2">Youssef</h6>
-                        <p class="content mb-5 mx-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua Ut enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="item card-body last">
-                    <div class="card border-0 py-3 px-4">
-                        <div class="row justify-content-center">
-                            <h3>BUGUARD CEO</h3>
+                            <h3>BUGUARD CEO 5</h3>
                         </div>
                         <h6 class="mb-3 mt-2">Youssef</h6>
                         <p class="content mb-5 mx-2">
@@ -690,7 +693,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing-options bg-light py-5">
+    <section class="pricing-options overflow bg-light py-5">
         <h2 class="
                                                     about__heading
                                                     heading-primary
@@ -701,13 +704,14 @@
                                                     text-danger
                                                     fw-bold
                                                     text-center
+wow
+                                                    animate__fadeInDown
                                 
                                 
-                                
-                                                  ">
+                                                  " data-wow-duration="1s">
             Multiple Pricing Options
         </h2>
-        <div class="container">
+        <div class="container wow animate__fadeInUp" data-wow-duration="1s">
             <div class="row text-center g-4 justify-content-center ">
                 <div class=" price-item  col-md-12 col-lg-3 card pt-5 pb-3 d-flex justify-content-center">
                     <h4 >Basic plan</h4>
@@ -781,19 +785,20 @@
                                                 text-danger
                                                 fw-bold
                                                 text-center
-                            
-                            
-                            
-                                              ">
+                                                wow
+                                                animate__fadeInDown
+                                
+                                
+                                                  " data-wow-duration="1s">
             Acknowledgments
         </h2>
-        <p class="ack-p pb-5">
+        <p class="ack-p pb-5 wow animate__fadeInLeft" data-wow-duration="1s">
             Buguard Team Consists Of Offensive Security Researchers, Highly Skilled Penetration Testers, Also, They Have Been
             Recognized And Rewarded For Finding Critical Security Vulnerabilities In Almost High Rated Vendor Such As Facebook,
             Google, Yahoo, Apple, Paypal, Microsoft, Avira, Eset, Twitter, Snapchat, ICQ, Bugcrowd, Hackerone, Synack, Vodafone,
             Etisalat, Oracle, Ford...And Many More.
         </p>
-        <div id="carouselExampleIndicators-2" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators-2" class="carousel slide wow animate__fadeInUp" data-wow-duration="1s" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
