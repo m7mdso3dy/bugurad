@@ -1,3 +1,30 @@
+const headerAnimationField = document.querySelector('.header-animation-field');
+const headertxt = 'Discover Your Weaknesses before they do !';
+const headerSpeed = 70;
+let headerExcuted = false;
+let headeri = 0;
+const headerTypewriter = () => {
+    if (headeri < headertxt.length) {
+    headerAnimationField.innerHTML += headertxt.charAt(headeri);
+    headeri++;
+    setTimeout(headerTypewriter, headerSpeed);
+  }
+}
+if (window.scrollY - headerAnimationField.offsetTop >= -500) {
+         if (!headerExcuted) {
+             headerExcuted = true;
+             headerTypewriter();
+         }
+     }
+ document.addEventListener('scroll', () => {
+     if (window.scrollY - headerAnimationField.offsetTop >= -500) {
+         if (!headerExcuted) {
+             headerExcuted = true;
+             headerTypewriter();
+         }
+     }  
+ });
+/*about us animation*/
 let i = 0;
 const txt = 'expertise and demonstrated experience'; /* The text */
 const speed = 50    ; /* The speed/duration of the effect in milliseconds */
@@ -25,7 +52,7 @@ if (window.scrollY - animationField.offsetTop >= -500) {
              typeWriter();
          }
      }  
-});
+ });
 /*
 window.pageYOffset >= statics.offsetTop - 200
 why chosse us animation*/
