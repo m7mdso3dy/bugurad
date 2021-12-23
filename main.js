@@ -1,3 +1,7 @@
+
+/*
+header animation
+*/
 const headerAnimationField = document.querySelector('.header-animation-field');
 const headertxt = 'Discover Your Weaknesses before they do !';
 const headerSpeed = 70;

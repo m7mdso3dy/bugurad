@@ -43,13 +43,40 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav lead ">
+                    <ul class="navbar-nav lead ">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
-                        <a class="nav-link active" href="/services.html">Services</a>
-                        <a class="nav-link" href="/certifications.html">Certification</a>
-                        <a class="nav-link" href="/About us.html">Company</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-services" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-services">
+                                <li><a class="dropdown-item" href="/sevices/penetrationtesting.html">Penetration Testing</a></li>
+                                <li><a class="dropdown-item" href="/sevices/service-1-compil-service-information-sec.html">Compliance
+                                        Services</a></li>
+                                <li><a class="dropdown-item" href="/sevices/service-2-security-consultancy.html">Security Consultancy</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/sevices/service-5-source-code-review.html">Source Code Review</a></li>
+                                <li><a class="dropdown-item" href="/sevices/service-7-info-aware.html">Information Security Awareness</a>
+                                </li>
+                                <li><a class="dropdown-item btn btn-danger" href="/services.html">All Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-company" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-company">
+                                <li><a class="dropdown-item" href="/About us.html">About</a></li>
+                                <li><a class="dropdown-item" href="/certifications.html">Certification</a></li>
+                                <li><a class="dropdown-item" href="/awards2.html">Awards</a></li>
+                                <li><a class="dropdown-item" href="/charity.html">Charity Program</a></li>
+                                <li><a class="dropdown-item" href="/partener.html">Partnering</a></li>
+                            </ul>
+                        </li>
                         <a class="nav-link" href="/Contact-us.html">Contact</a>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -232,7 +259,9 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <script src="drop-down.js"></script>
 </body>
 
 </html>
