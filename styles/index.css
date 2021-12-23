@@ -217,8 +217,7 @@ nav {
   border-bottom: 2px solid black;
 }
 .ack-p {
-  margin: 0 5.75rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 footer {
   background-image: url(../imgs/background-footer.png);
@@ -496,4 +495,8 @@ form {
   .navbar > .container-xxl {
     max-width: 1500px;
   }
+}
+.white-bg {
+  background-image: url(../imgs/background-2.png);
+  background-repeat: repeat;
 }
