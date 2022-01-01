@@ -14,7 +14,8 @@ const headerTypewriter = () => {
     setTimeout(headerTypewriter, headerSpeed);
   }
 }
-if (window.scrollY - headerAnimationField.offsetTop >= -500) {
+window.addEventListener('load', () => {
+    if (window.scrollY - headerAnimationField.offsetTop >= -500) {
          if (!headerExcuted) {
              headerExcuted = true;
              headerTypewriter();
@@ -28,6 +29,7 @@ if (window.scrollY - headerAnimationField.offsetTop >= -500) {
          }
      }  
  });
+})
 /*about us animation*/
 let i = 0;
 const txt = 'expertise and demonstrated experience'; /* The text */
