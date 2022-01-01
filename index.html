@@ -126,6 +126,20 @@
                 opacity: 1;
             }
         }
+        @media screen and (max-width:992px) {
+            @keyframes loadafter {
+            0% {
+                width: 0px;
+                opacity: 0;
+                height: 0px;
+            }
+            100% {
+                width: 400px;
+                height: 250px;
+                opacity: 1;
+            }
+        }
+        }
         
         .h1{
             position: relative;
@@ -1278,15 +1292,15 @@ wow
             animation at the beginnig script
     -->
     <script>
-         const loader = document.querySelector('.loader')
-           window.addEventListener('load',()=>{
+         const loader = document.querySelector('.loader');
+        //    window.addEventListener('load',()=>{
+        //        loader.classList.add('display');
+        //        document.querySelector('body').classList.remove('overflow');
+        //    });
+           setTimeout(() => {
                loader.classList.add('display');
                document.querySelector('body').classList.remove('overflow');
-           });
-        //   setTimeout(() => {
-        //       loader.classList.add('display');
-        //       document.querySelector('body').classList.remove('overflow');
-        //   }, 5000);
+           }, 5000000);
     </script>
     
 
