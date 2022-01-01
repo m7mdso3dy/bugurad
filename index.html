@@ -127,18 +127,35 @@
             }
         }
         @media screen and (max-width:992px) {
-            @keyframes loadafter {
-            0% {
-                width: 0px;
-                opacity: 0;
-                height: 0px;
-            }
-            100% {
+            .up,.down{
                 width: 400px;
                 height: 250px;
-                opacity: 1;
             }
+            @keyframes loadbefore {
+                0% {
+                    width: 0px;
+                    opacity: 0;
+                    height: 0px;
+                }
+                100% {
+                    width: 400px;
+                    height: 250px;
+                    opacity: 1;
+                }
         }
+            @keyframes loadafter {
+                0% {
+                    width: 0px;
+                    opacity: 0;
+                    height: 0px;
+                }
+                100% {
+                    width: 400px;
+                    height: 250px;
+                    opacity: 1;
+                }
+            }
+
         }
         
         .h1{
