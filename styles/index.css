@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@500&family=Raleway:wght@200;400&display=swap");
 
+body {
+  overflow-x: hidden !important;
+}
 /*
 */
 a {
@@ -619,6 +622,9 @@ form {
   .lg-contact {
     display: none !important;
   }
+  .menu {
+    display: none;
+  }
 }
 .nav-pills button.nav-link.active {
   position: relative !important;
@@ -634,3 +640,7 @@ form {
   border-right-color: #bf0a26;
   right: -4rem;
 } */
+.Acknowledgments > h2 {
+  overflow: hidden;
+  font-size: 2.5rem;
+}
