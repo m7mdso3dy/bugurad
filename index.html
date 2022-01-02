@@ -270,8 +270,8 @@
     </div>
     <header class="">
         <nav class="navbar navbar-expand-lg navbar-dark pb-5">
-            <div class="container d-flex ">
-                <a class="navbar-brand"  href="/">
+            <div class="container">
+                <a class="navbar-brand" href="/">
                     <img src="imgs/يبب.png" alt="" >
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -289,7 +289,7 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="services">
-                                <li><a class="dropdown-item" href="/sevices/penteration.js">penetrationtesting</a></li>
+                                <li><a class="dropdown-item" href="#">penetrationtesting</a></li>
                                 <li><a  class="dropdown-item" href="./sevices/service-1-compil-service-information-sec.html"> Information Security </a></li>
                                 <li><a class="dropdown-item"  href="./sevices/service-7-info-aware.html"> Information Security Awareness </a></li>
                                 <li><a  class="dropdown-item" href="./sevices/service-2-security-consultancy.html">Security Consultancy</a></li>
@@ -322,7 +322,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class=" navbar lg-nav-bar me-auto" id="navbarNav">
+                <div class=" navbar lg-nav-bar" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="/">Home</a>
@@ -338,35 +338,22 @@
                         </li>
                     </ul>
                 </div>
-                <a href="Contact-us.html" type="button" class="btn btn-danger lg-contact ">Get In Touch </a>
-                <div class="menu menu-1 card card-body row flex-column flex-lg-row p-0 hide" data-menu="services-menu" style="
-                    width: 40%;
-                ">
-                    <div class="col-5  d-flex justify-content-center ">
-                        <div class="d-flex " style="
-                            justify-content: center;
-                        ">
-                            <div class="nav flex-column justify-content-start nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
-                                style="
-                                width: max-content;
-                            ">
-                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                    aria-selected="true" style="
-                    width: max-content;
-                    align-self: center;
-                                    ">Penetration Testing</button>
-                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                                    aria-selected="false">Other Services</button>
+                <div class="menu menu-1 hide card card-body row flex-column flex-lg-row p-0 " data-menu='services-menu' >
+                    <div class="col-6 pt-4 pb-3 px-3 row justify-content-center">
+                        <div class="d-flex flex-column ">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                                    type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">penetrationtesting</button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                                    type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Other Services</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 d-flex justify-content-center" style="font-size: larger;" >
-                        <div class="tab-content " id="v-pills-tabContent">
+                    <div class="col-6 pt-4 pb-3 ">
+                        <div class="tab-content px-4 " id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                 <ul class="list-unstyled">
-                                    <li><a href="./backup/web-pentesting.html">Web Pentesting</a></li>
+                                    <li><a href="./backup/web-pentesting.html">web Pentesting</a></li>
                                     <li><a href="./backup/backup-service-temp.html">Mobile Pentesting</a></li>
                                     <li><a href="./backup/source-code-review.html">Source Code Review </a></li>
                                     <li><a href="./backup/infrastructer.html"> Infrastructure </a></li>
@@ -374,27 +361,19 @@
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                 <ul class="list-unstyled">
-                                    <li><a href="./sevices/service-1-compil-service-information-sec.html"> Information Security </a>
-                                    </li>
+                                    <li><a href="./sevices/service-1-compil-service-information-sec.html"> Information Security </a></li>
                                     <li><a href="./sevices/service-7-info-aware.html"> Information Security Awareness </a></li>
                                     <li><a href="./sevices/service-2-security-consultancy.html">Security Consultancy</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                
+                    
                 </div>
-                <div class="menu menu-2 card card-body row flex-column flex-lg-row  p-0 hide" data-menu="solutions-menu" style="
-                                    width:35%;
-                                ">
-                    <div class="col-5  d-flex justify-content-center ">
-                        <div class="d-flex " style="
-                                                justify-content: center;
-                                            ">
-                            <div class="nav flex-column justify-content-start nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical" style="
-                                                    width: max-content;
-                                                ">
+                <div class="menu menu-2 hide card card-body row flex-column flex-lg-row p-0" data-menu='solutions-menu'>
+                    <div class="col-6 pt-4 pb-3 px-3 row justify-content-center">
+                        <div class="d-flex flex-column ">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <button class="nav-link active" id="v-pills-erpsystem-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-erpsystem" type="button" role="tab" aria-controls="v-pills-erpsystem"
                                     aria-selected="true">ERP Systems</button>
@@ -404,13 +383,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 d-flex justify-content-center" style="font-size: larger;">
-                        <div class="tab-content " id="v-pills-tabContent">
+                    <div class="col-6 pt-4 pb-3 ">
+                        <div class="tab-content px-4 " id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-erpsystem" role="tabpanel" aria-labelledby="v-pills-erpsystem-tab">
                                 <ul class="list-unstyled">
                                     <li><a href="./backup/web-pentesting.html">Easy</a></li>
-                                    <li><a href="./backup/backup-service-temp.html">fvcaeadwca</a></li>
-                                    <li><a href="./backup/source-code-review.html">wccawcaw </a></li>
+                                    <li><a href="./backup/backup-service-temp.html">Meduim</a></li>
+                                    <li><a href="./backup/source-code-review.html">Hard </a></li>
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="v-pills-office" role="tabpanel" aria-labelledby="v-pills-office-tab">
@@ -423,17 +402,10 @@
                     </div>
                 
                 </div>
-                <div class="menu menu-3 card card-body row flex-column flex-lg-row p-0 hide" data-menu="company-menu" style="
-                                    width: 30%;
-                                ">
-                    <div class="col-5  d-flex justify-content-center ">
-                        <div class="d-flex " style="
-                                                justify-content: center;
-                                            ">
-                            <div class="nav flex-column justify-content-start nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical" style="
-                                                    width: max-content;
-                                                ">
+                <div class="menu menu-3 hide card card-body row flex-column flex-lg-row p-0" data-menu='company-menu'>
+                    <div class="col-6 pt-4 pb-3 px-3 row justify-content-center">
+                        <div class="d-flex flex-column">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <button class="nav-link active" id="v-pills-about-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about"
                                     aria-selected="true">About</button>
@@ -443,8 +415,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 d-flex justify-content-center" style="font-size: larger;">
-                        <div class="tab-content " id="v-pills-tabContent">
+                    <div class="col-6 pt-4 pb-3  ">
+                        <div class="tab-content px-4 " id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
                                 <ul class="list-unstyled">
                                     <li><a href="./About us.html">Who We Are</a></li>
@@ -465,6 +437,7 @@
                     </div>
                 
                 </div>
+                <a href="Contact-us.html" type="button" class="btn btn-danger">Get In Touch</a>
             </div>
             <script src="nav.js"></script>
         </nav>

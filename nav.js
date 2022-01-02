@@ -3,26 +3,20 @@ const menus = document.querySelectorAll('[data-menu]');
 navBtns.forEach(btn => {
     btn.addEventListener('mouseenter', (e) => {
         menus.forEach(menu => {
-            (menu.dataset.menu == btn.dataset.target) && menu.classList.remove('hide');
+            (menu.dataset.menu == btn.dataset.target) && menu.classList.remove('hide')
         });
     });
     btn.addEventListener('mouseleave', (e) => {
         menus.forEach(menu => {
-            (menu.dataset.menu == btn.dataset.target) && menu.classList.add('hide');
+            (menu.dataset.menu == btn.dataset.target) && menu.classList.add('hide')
         });
     });
 });
 menus.forEach(menu => {
     menu.addEventListener('mouseenter', e => {
         e.target.classList.remove('hide');
-        navBtns.forEach(btn => {
-            (menu.dataset.menu == btn.dataset.target) && btn.classList.add('colorized');
-        });
     });
     menu.addEventListener('mouseleave', e => {
         e.target.classList.add('hide');
-        navBtns.forEach(btn => {
-            (menu.dataset.menu == btn.dataset.target) && btn.classList.remove('colorized');
-            });
     });
 });
