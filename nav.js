@@ -1,7 +1,18 @@
 const navBtns = document.querySelectorAll('[data-target]');
 const menus = document.querySelectorAll('[data-menu]');
-navBtns.forEach(btn => {
+const tabsBtns = document.querySelectorAll('[data-bs-toggle= "pill"]');
+const tabsContent = document.querySelectorAll('[role="tabpanel"]');
+/*main nav btns*/
+navBtns.forEach((btn,i) => {
     btn.addEventListener('mouseenter', (e) => {
+        tabsBtns.forEach(btn => btn.classList.remove('active'));
+        tabsContent.forEach(tab => {
+                    tab.classList.remove('active');
+                    tab.classList.remove('show');
+                });
+        tabsBtns[i * 2].classList.add('active');
+        tabsContent[i * 2].classList.add('active');
+        tabsContent[i * 2].classList.add('show');
         menus.forEach(menu => {
             (menu.dataset.menu == btn.dataset.target) && menu.classList.remove('hide')
         });
@@ -19,4 +30,21 @@ menus.forEach(menu => {
     menu.addEventListener('mouseleave', e => {
         e.target.classList.add('hide');
     });
+});
+/*tabs btns*/
+tabsBtns.forEach(btn => {
+    btn.addEventListener('mouseenter', (e) => {
+        tabsBtns.forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+        tabsContent.forEach(tab => {
+            if(`#${tab.id}` == btn.dataset.bsTarget){
+                tabsContent.forEach(tab => {
+                    tab.classList.remove('active');
+                    tab.classList.remove('show');
+                });
+                tab.classList.add('active');
+                tab.classList.add('show');
+            }
+        })
+    })
 });
