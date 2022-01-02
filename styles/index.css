@@ -559,6 +559,7 @@ form {
   height: 300px;
   background-color: #a3041d;
   color: #fff;
+  text-transform: capitalize;
 }
 .menu-2 {
   left: 47%;
@@ -587,6 +588,16 @@ form {
 .menu > .col-6.row {
   width: max-content !important;
   background-color: #fff;
+}
+.bi-badge-tm-fill,
+.bi-file-person-fill,
+.bi-person-lines-fill,
+.bi-menu-down,
+.bi-house-door-fill,
+.bi-bar-chart-fill,
+.bi-windows {
+  color: #fff;
+  padding: 8px;
 }
 .nav-pills button.nav-link {
   color: #050505;
