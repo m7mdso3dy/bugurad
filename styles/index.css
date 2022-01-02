@@ -574,7 +574,7 @@ form {
   .menu-1,
   .menu-2,
   .menu-3 {
-    width: 40%;
+    width: 45%;
   }
 }
 @media (max-width: 1099px) {
@@ -582,7 +582,7 @@ form {
   .menu-1,
   .menu-2,
   .menu-3 {
-    width: 45%;
+    width: 55%;
   }
 }
 .menu > .col-6.row {
