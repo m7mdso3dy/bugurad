@@ -568,12 +568,20 @@ form {
   left: 57%;
   width: 30%;
 }
-@media (max-width: 1299px) {
+@media (min-width: 1099px) and (max-width: 1299px) {
   .menu,
   .menu-1,
   .menu-2,
   .menu-3 {
     width: 40%;
+  }
+}
+@media (max-width: 1099px) {
+  .menu,
+  .menu-1,
+  .menu-2,
+  .menu-3 {
+    width: 45%;
   }
 }
 .menu > .col-6.row {
