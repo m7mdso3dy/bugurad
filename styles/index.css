@@ -651,6 +651,10 @@ form {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #bf0a26;
 }
+.lg-contact {
+  font-size: 24px !important;
+  border-radius: 40px;
+}
 /**/
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
