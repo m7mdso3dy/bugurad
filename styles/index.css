@@ -54,7 +54,7 @@ nav {
 }
 
 .btn-danger {
-  font-size: 2rem;
+  font-size: 1.25rem;
   background-color: #a3041d;
   border-color: #a3041d;
 }
@@ -179,9 +179,11 @@ nav {
 @media screen and (min-width: 1200px) {
   .header-info h1 {
     margin-bottom: 24px;
+    font-size: 28px;
   }
   .header-info h2 {
     margin-bottom: 40px;
+    font-size: 20px;
   }
   .whychooseus > .container > .row > .card:nth-child(2) {
     clip-path: polygon(100% 0, 100% 73%, 49% 89%, 0 73%, 0 0);
