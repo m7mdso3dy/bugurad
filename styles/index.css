@@ -663,6 +663,8 @@ form {
   }
   .lg-contact {
     display: none !important;
+    border-radius: 40px;
+    font-size: 24px !important;
   }
   .menu {
     display: none;
