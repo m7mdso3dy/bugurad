@@ -241,6 +241,29 @@ footer {
 .carousel-indicators {
   bottom: 0;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black !important;
+  position: absolute;
+  bottom: 5px;
+  background-image: none;
+}
+.carousel-control-prev-icon::before {
+  content: "\21DC";
+  position: absolute;
+  color: #0e1d27 !important;
+  font-size: 3rem;
+  bottom: 5px;
+  left: 300px;
+}
+.carousel-control-next-icon::before {
+  content: "\21DD";
+  position: absolute;
+  color: #0e1d27 !important;
+  font-size: 3rem;
+  bottom: 5px;
+  right: 300px;
+}
 .carousel-indicators [data-bs-target] {
   display: inline-block !important;
   width: 16px !important;
