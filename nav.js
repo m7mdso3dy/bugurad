@@ -2,6 +2,7 @@ const navBtns = document.querySelectorAll('[data-target]');
 const menus = document.querySelectorAll('[data-menu]');
 const tabsBtns = document.querySelectorAll('[data-bs-toggle= "pill"]');
 const tabsContent = document.querySelectorAll('[role="tabpanel"]');
+const nav = document.querySelector('body > nav');
 /*main nav btns*/
 navBtns.forEach((btn,i) => {
     btn.addEventListener('mouseenter', (e) => {
@@ -48,3 +49,8 @@ tabsBtns.forEach(btn => {
         })
     })
 });
+
+/*sticky nav*/
+window.addEventListener('scroll', () => {
+    window.pageYOffset > 100 ? nav.classList.add('black') : nav.classList.remove('black');
+})
