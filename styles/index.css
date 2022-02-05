@@ -264,6 +264,18 @@ footer {
   bottom: 5px;
   right: 300px;
 }
+@media (max-width: 800px) {
+  .carousel-control-next-icon::before,
+  .carousel-control-prev-icon::before {
+    font-size: 1.5rem;
+  }
+  .carousel-control-next-icon::before {
+    right: 75px;
+  }
+  .carousel-control-prev-icon::before {
+    left: 75px;
+  }
+}
 .carousel-indicators [data-bs-target] {
   display: inline-block !important;
   width: 16px !important;
@@ -748,4 +760,16 @@ header {
 }
 .black {
   background-color: black;
+}
+@media (max-width: 500px) {
+  .img3rd {
+    width: 234px;
+    height: 222px;
+  }
+}
+@media (min-width: 501px) {
+  .img3rd {
+    width: 312px;
+    height: 296px;
+  }
 }
