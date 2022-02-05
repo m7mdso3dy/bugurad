@@ -4,6 +4,7 @@ const tabsBtns = document.querySelectorAll('[data-bs-toggle= "pill"]');
 const tabsContent = document.querySelectorAll('[role="tabpanel"]');
 const nav = document.querySelector('body > nav');
 const toggler = document.querySelector('.navbar-toggler');
+const smNav = document.querySelector('.sm-md-nav-bar');
 /*main nav btns*/
 navBtns.forEach((btn,i) => {
     btn.addEventListener('mouseenter', (e) => {
@@ -54,9 +55,13 @@ tabsBtns.forEach(btn => {
 /*sticky nav*/
 window.pageYOffset > 100 ? nav.classList.add('black') : nav.classList.remove('black');
 window.addEventListener('scroll', () => {
-    window.pageYOffset > 100 ? nav.classList.add('black') : nav.classList.remove('black');
+    (window.pageYOffset > 100 || smNav.classList.contains('show')) ? nav.classList.add('black')
+        : (window.pageYOffset < 100 && smNav.classList.contains('show')) ? nav.classList.add('black')
+            : nav.classList.remove('black');
 });
 /*toggler bug fixing*/
 toggler.addEventListener('click', () => {
-    window.pageYOffset <= 100 ? nav.classList.toggle('black') : null;
+    if (window.pageYOffset < 100) {
+        nav.classList.toggle('black');
+    }
 })
