@@ -773,3 +773,6 @@ header {
     height: 296px;
   }
 }
+.navbar-brand > img {
+  width: 50%;
+}
