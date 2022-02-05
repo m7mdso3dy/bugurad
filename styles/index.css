@@ -179,11 +179,11 @@ nav {
 @media screen and (min-width: 1200px) {
   .header-info h1 {
     margin-bottom: 24px;
-    font-size: 28px;
+    font-size: 36px;
   }
   .header-info h2 {
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 28px;
   }
   .whychooseus > .container > .row > .card:nth-child(2) {
     clip-path: polygon(100% 0, 100% 73%, 49% 89%, 0 73%, 0 0);
