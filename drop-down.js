@@ -1,0 +1,1 @@
+document.querySelector('header section p').innerHTML = 'Discover your weakness before they do'

@@ -64,4 +64,5 @@ toggler.addEventListener('click', () => {
     if (window.pageYOffset < 100) {
         nav.classList.toggle('black');
     }
-})
+});
+document.querySelector('header section p').innerHTML = 'Discover Your Weaknesses before they do !'
