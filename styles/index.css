@@ -795,3 +795,12 @@ header {
 .card-body:hover {
   transform: scale(1.1);
 } */
+.partner_link {
+  transition: all 0.5s ease-in-out;
+}
+.partner_link:hover {
+  transform: scale(1.1);
+}
+.partner_link:hover i {
+  transform: translateX(10px) !important;
+}
