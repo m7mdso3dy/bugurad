@@ -782,19 +782,6 @@ header {
 .navbar-brand > img {
   width: 50%;
 }
-@media (min-width: 1670px) {
-  p {
-    font-size: 26px !important;
-    /* font-weight: bold !important; */
-  }
-}
-/* .card {
-  transition: all ease-in-out 0.5s;
-}
-.card:hover,
-.card-body:hover {
-  transform: scale(1.1);
-} */
 .partner_link {
   transition: all 0.5s ease-in;
 }
