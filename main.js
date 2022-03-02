@@ -3,8 +3,8 @@
 header animation
 */
 const headerAnimationField = document.querySelector('.header-animation-field');
-const headertxt = 'Discover Your Weaknesses before they do !';
-const headerSpeed = 70;
+const headertxt = 'Discover Your Weaknesses before the hackers do!';
+const headerSpeed = 65;
 let headerExcuted = false;
 let headeri = 0;
 const headerTypewriter = () => {
@@ -32,8 +32,8 @@ window.addEventListener('load', () => {
 })
 /*about us animation*/
 let i = 0;
-const txt = 'expertise and demonstrated experience'; /* The text */
-const speed = 50    ; /* The speed/duration of the effect in milliseconds */
+const txt = 'Trusted Security Vendor!'; /* The text */
+const speed = 65   ; /* The speed/duration of the effect in milliseconds */
 const animationField = document.querySelector(".text-animation");
 let excuted = false;
 let once = false;
