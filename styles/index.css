@@ -592,15 +592,15 @@ form {
   color: #050505;
   width: 35%;
   left: 34%;
-  bottom: -350%;
-  height: 300px;
+  bottom: -400%;
+  height: 350px;
   background-color: #a3041d;
   color: #fff;
   text-transform: capitalize;
 }
 .menu-2 {
   left: 47%;
-  width: 30%;
+  width: 36%;
 }
 .menu-3 {
   left: 57%;
@@ -612,7 +612,7 @@ form {
     width: 40%;
   }
   .menu-2 {
-    width: 32%;
+    width: 38%;
   }
   .menu-3 {
     width: 33%;
@@ -624,7 +624,7 @@ form {
     width: 45%;
   }
   .menu-2 {
-    width: 40%;
+    width: 45%;
   }
   .menu-3 {
     width: 40%;
@@ -636,7 +636,7 @@ form {
     width: 55%;
   }
   .menu-2 {
-    width: 45%;
+    width: 50%;
   }
   .menu-3 {
     width: 40%;
