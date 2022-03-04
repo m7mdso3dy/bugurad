@@ -592,7 +592,7 @@ form {
   color: #050505;
   width: 35%;
   left: 34%;
-  bottom: -400%;
+  bottom: -410%;
   height: 350px;
   background-color: #a3041d;
   color: #fff;
@@ -801,4 +801,13 @@ header {
 .partner_link:nth-of-type(3) {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.Charity p.lead,
+.partenership p.lead,
+.about-us p.lead,
+.Awards p.lead {
+  text-align: start !important;
+}
+.py-5.container.white-bg p.lead {
+  text-align: start !important;
 }
