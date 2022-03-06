@@ -6,16 +6,15 @@ const nav = document.querySelector('body > nav');
 const toggler = document.querySelector('.navbar-toggler');
 const smNav = document.querySelector('.sm-md-nav-bar');
 /*main nav btns*/
-navBtns.forEach((btn,i) => {
+navBtns.forEach((btn, i) => {
     btn.addEventListener('mouseenter', (e) => {
         tabsBtns.forEach(btn => btn.classList.remove('active'));
         tabsContent.forEach(tab => {
                     tab.classList.remove('active');
                     tab.classList.remove('show');
-                });
-        tabsBtns[i * 2].classList.add('active');
-        tabsContent[i * 2].classList.add('active');
-        tabsContent[i * 2].classList.add('show');
+        });
+        const event = new Event('mouseenter');
+        menus[i].firstElementChild.firstElementChild.firstElementChild.firstElementChild.dispatchEvent(event);
         menus.forEach(menu => {
             (menu.dataset.menu == btn.dataset.target) && menu.classList.remove('hide')
         });

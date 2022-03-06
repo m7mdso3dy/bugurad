@@ -15,19 +15,20 @@ window.addEventListener("scroll", function () {
 
 function Counter() {
     // achievements.style.display = "flex";
-    countUp(counters[0], 0, 500000, 0.03);  // we need faster
-    countUp(counters[1], 0, 3000, 0.03);
-    countUp(counters[2], 0, 1500, 0.03);
-    countUp(counters[3], 0, 100000000, 0.03); // we need faster
-    countUp(counters[4], 0, 90, 100);
-    countUp(counters[5], 0, 400, 2);
+    countUp(counters[0], 1000, 500000, 1);  // we need faster
+    countUp(counters[1], 2, 3000, 0.03);
+    countUp(counters[2], 2, 1500, 0.03);
+    countUp(counters[3], 1000000, 100000000, 1); // we need faster
+    countUp(counters[4], 2, 90, 3);
+    countUp(counters[5], 2, 400, 2);
 }
 
 
 function countUp(selector, min, max, duration) {
     let inter = setInterval(function () {
-        selector.innerHTML = ++min;
-        if (min >= max) {
+        selector.innerHTML = + Math.round(min);
+        min = min + max/500 ;
+        if (selector.innerHTML >= max) {
             clearTimeout(inter);
         }
     }, duration);
