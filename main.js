@@ -3,7 +3,7 @@
 header animation
 */
 const headerAnimationField = document.querySelector('.header-animation-field');
-const headertxt = 'Discover Your Weaknesses before the hackers do!';
+const headertxt = 'Always One-Step Ahead!';
 const headerSpeed = 65;
 let headerExcuted = false;
 let headeri = 0;
@@ -32,22 +32,35 @@ window.addEventListener('load', () => {
 })
 /*about us animation*/
 let i = 0;
-const txt = 'Trusted Security Vendor!'; /* The text */
-const speed = 65   ; /* The speed/duration of the effect in milliseconds */
+const txt = ['Your Trusted Security Partner!','Your Next Security Vendor!','A Vendor You Can Trust!','Your Partner in Success.']; /* The text */
+const speed = 1500   ; /* The speed/duration of the effect in milliseconds */
 const animationField = document.querySelector(".text-animation");
 let excuted = false;
 let once = false;
 /* type writer animation*/
+const texts = ['Your Trusted Security Partner!', 'Your Next Security Vendor!', 'A Vendor You Can Trust!', 'Your Partner in Success.']; /* The text */
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+
 function typeWriter() {
-  if (i < txt.length) {
-    animationField.innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+    if (count == texts.length) {
+        count = 0;
+    }
+    currentText = texts[count];
+    letter = currentText.slice(0, ++index);
+    animationField.textContent = letter;
+    if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+    }
+    setTimeout(typeWriter, 100);
 }
 if (window.scrollY - animationField.offsetTop >= -500) {
          if (!once) {
              once = true;
+             console.log('we are here')
              typeWriter();
          }
      }
