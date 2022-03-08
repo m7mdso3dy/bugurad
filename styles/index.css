@@ -829,5 +829,5 @@ header {
 }
 .partners__item img {
   height: 210px;
-  width: 185px;
+  width: 185px !important;
 }
