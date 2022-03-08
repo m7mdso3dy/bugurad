@@ -3,7 +3,7 @@
 header animation
 */
 const headerAnimationField = document.querySelector('.header-animation-field');
-const headertxt = 'Discover Your Weaknesses before the hackers do!';
+const headertxt = 'Always One-Step Ahead!';
 const headerSpeed = 65;
 let headerExcuted = false;
 let headeri = 0;
@@ -68,12 +68,7 @@ window.addEventListener('load', () => {
 //     typetimeout();
 // }
 // List of sentences
-var _CONTENT = [ 
-	"Trusted Security Vendor!", 
-	"..........................", 
-	"..........................", 
-	"..........................."
-];
+var _CONTENT = ['Your Trusted Security Partner!','Your Next Security Vendor!','A Vendor You Can Trust!','Your Partner in Success.'];
 
 // Current sentence being processed
 var _PART = 0;

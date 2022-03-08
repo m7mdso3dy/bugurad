@@ -64,5 +64,4 @@ toggler.addEventListener('click', () => {
         nav.classList.toggle('black');
     }
 });
-document.querySelector('header section p').innerHTML = 'Discover Your Weaknesses before the hackers do!'
-/*modal handling */
+document.querySelector('header section p').innerHTML = 'Always One-Step Ahead!';
