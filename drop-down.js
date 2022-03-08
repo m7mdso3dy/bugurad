@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-document.querySelector('header section p').innerHTML = 'Discover your weakness before they do';
-=======
 document.querySelector('header section p').innerHTML = 'Always One-Step Ahead!';
->>>>>>> Stashed changes
 
 const links = document.querySelectorAll('nav a');
 links.forEach(link => {
