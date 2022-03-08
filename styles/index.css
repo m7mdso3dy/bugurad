@@ -825,3 +825,7 @@ header {
 .py-5.container.white-bg p.lead {
   text-align: start !important;
 }
+.partners__item img {
+  height: 210px;
+  max-width: 300px;
+}
