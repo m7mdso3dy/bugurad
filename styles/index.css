@@ -807,8 +807,20 @@ header {
 .Charity p.lead,
 .partenership p.lead,
 .about-us p.lead,
-.Awards p.lead {
+.Awards p.lead,
+#about-us p.lead {
   text-align: start !important;
+  width: 70%;
+}
+.Charity,
+.partenership,
+.about-us,
+.Awards,
+.col-md.p-5.text-center {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 .py-5.container.white-bg p.lead {
   text-align: start !important;

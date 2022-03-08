@@ -5,7 +5,7 @@ if (document.querySelector('header section p')) {
 
 
 
-const links = document.querySelectorAll('nav a');
+const links = document.querySelectorAll(' a');
 const modalBtn = document.querySelector('.modal-btn');
 const event1 = new Event('click');
 links.forEach(link => {
