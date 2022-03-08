@@ -17,6 +17,8 @@ a:hover {
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
+  background-color: transparent;
+  border: none;
 }
 /*
 
