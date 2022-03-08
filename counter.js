@@ -16,8 +16,8 @@ window.addEventListener("scroll", function () {
 function Counter() {
     // achievements.style.display = "flex";
     countUp(counters[0], 1000, 500000, 1);  // we need faster
-    countUp(counters[1], 2, 3000, 0.03);
-    countUp(counters[2], 2, 1500, 0.03);
+    countUp(counters[1], 2, 2998, 0.03);
+    countUp(counters[2], 2, 1498, 0.03);
     countUp(counters[3], 1000000, 100000000, 1); // we need faster
     countUp(counters[4], 2, 90, 3);
     countUp(counters[5], 2, 400, 2);

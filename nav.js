@@ -65,3 +65,4 @@ toggler.addEventListener('click', () => {
     }
 });
 document.querySelector('header section p').innerHTML = 'Discover Your Weaknesses before the hackers do!'
+/*modal handling */

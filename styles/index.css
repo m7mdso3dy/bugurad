@@ -3,6 +3,9 @@
 body {
   overflow-x: hidden !important;
 }
+.modal {
+  z-index: 800000000;
+}
 /*
 */
 a {
