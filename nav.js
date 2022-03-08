@@ -64,4 +64,4 @@ toggler.addEventListener('click', () => {
         nav.classList.toggle('black');
     }
 });
-document.querySelector('header section p').innerHTML = 'Always One-Step Ahead!';
+document.querySelector('header section p') ? document.querySelector('header section p') .innerHTML = 'Always One-Step Ahead!' : null;

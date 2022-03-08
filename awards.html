@@ -31,6 +31,30 @@
 </head>
 
 <body>
+    <div class="modal-outer-layer">
+        <button type="button" class="btn modal-btn btn-primary d-none " data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Oops.....</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        This Page is underConstruction
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark pb-5">
         <div class="container">
             <a class="navbar-brand" href="/">
@@ -54,7 +78,8 @@
                             <li><a class="dropdown-item" href="#">penetration-testing</a></li>
                             <li><a class="dropdown-item" href="./services/compliance-advisory.html">
                                     Information Security </a></li>
-                            <li><a class="dropdown-item" href="./services/information-security-awareness.html"> Information Security
+                            <li><a class="dropdown-item" href="./services/information-security-awareness.html"> Information
+                                    Security
                                     Awareness </a></li>
                             <li><a class="dropdown-item" href="./services/security-consultancy.html">Security
                                     Consultancy</a></li>
@@ -113,7 +138,29 @@
                                 aria-selected="true"> <i class="bi bi-badge-tm-fill"></i>Penetration Testing</button>
                             <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>Compliance Advisory</button>
+                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>Compliance Advisory
+                            </button>
+                            <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
+                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>
+                                Managed Security
+                            </button>
+                            <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth"
+                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>
+                                Security Awareness
+                            </button>
+                            <button class="nav-link" id="v-pills-fifth-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-fifth" type="button" role="tab" aria-controls="v-pills-fifth"
+                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>
+                                Security Training
+                            </button>
+                            <button class="nav-link" id="v-pills-sixth-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-sixth" type="button" role="tab" aria-controls="v-pills-sixth"
+                                aria-selected="false"> <i class="bi bi-badge-tm-fill"></i>
+                                Security Outsourcing
+                            </button>
+    
                         </div>
                     </div>
                 </div>
@@ -122,25 +169,63 @@
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <ul class="list-unstyled">
-                                <li><a href="./backup/web-pentesting.html">Web Pentesting</a></li>
-                                <li><a href="./backup/backup-service-temp.html">Mobile Pentesting</a></li>
-                                <li><a href="./backup/backup-service-temp.html">Desktop Pentesting</a></li>
-                                <li><a href="./backup/infrastructer.html">Network Pentesting</a></li>
+                                <li><a href="#">Web Pentesting</a></li>
+                                <li><a href="#">Mobile Pentesting</a></li>
+                                <li><a href="#">Desktop Pentesting</a></li>
+                                <li><a href="#">Network Pentesting</a></li>
                                 <li><a href="#">IoT Pentesting</a></li>
                                 <li><a href="#">VoIP Pentesting</a></li>
-                                <li><a href="./backup/source-code-review.html">Source Code Review</a></li>
+                                <li><a href="#">Source Code Review</a></li>
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                             aria-labelledby="v-pills-profile-tab">
                             <ul class="list-unstyled">
-                                <li><a href="#"> PCI DSS</a></li>
-                                <li><a href="#"> PIN SEC</a></li>
+                                <li><a href="#">PCI DSS</a></li>
+                                <li><a href="#">PIN SEC</a></li>
                                 <li><a href="#">HIPAA</a></li>
                                 <li><a href="#">SOC 1</a></li>
                                 <li><a href="#">SOC 2</a></li>
                                 <li><a href="#">SOC 3</a></li>
                                 <li><a href="#"> ISO 27001</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <ul class="list-unstyled">
+                                <li><a href="#">24x7x365 SOC Operation Services</a></li>
+                                <li><a href="#">SOC Consultancy</a></li>
+                                <li><a href="#">Remote Firewall Administration</a></li>
+                                <li><a href="#">Remote IPS Administration</a></li>
+                                <li><a href="#">Managed Bug Bounty Program</a></li>
+                                <li><a href="#">vCISO Services</a></li>
+                                <li><a href="#">Managed InfoSec Department</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-fourth" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Social Engineering</a></li>
+                                <li><a href="#">Phishing Campaigns</a></li>
+                                <li><a href="#">Security Awareness Workshops</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-fifth" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Web Application Pentesting</a></li>
+                                <li><a href="#">Mobile Application Pentesting</a></li>
+                                <li><a href="#">Desktop Application Pentesting</a></li>
+                                <li><a href="#">IoT Pentesting</a></li>
+                                <li><a href="#">Security Awareness Training</a></li>
+                                <li><a href="#">Blockchain Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-sixth" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Virtual CISO</a></li>
+                                <li><a href="#">Dedicated Security Engineers</a></li>
+                                <li><a href="#">Dedicated DevOps Engineers</a></li>
+                                <li><a href="#">Dedicated QA Engineers</a></li>
+                                <li><a href="#">Dedicated Network Engineers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -213,7 +298,7 @@
                                 <li><a href="./company.html">Company Overview</a></li>
                                 <li><a href="./awards.html">Industry Recognition</a></li>
                                 <li><a href="./certifications.html">Accreditations</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li><a href="https://www.linkedin.com/company/buguard/jobs/">Careers</a></li>
     
                             </ul>
                         </div>
@@ -223,14 +308,14 @@
                                 <li><a href="./contact.html">Contact Us</a></li>
                                 <li><a href="./charity.html">Charities Program </a></li>
                                 <li><a href="./partners.html">Partners Program</a></li>
+                                <!-- <li><a href="#">Refer a Client</a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
     
             </div>
-            <a href="contact.html" type="button " class="btn btn-danger  lg-contact bg-white text-dark">REQUEST A
-                QUOTE</a>
+            <a href="contact.html" type="button " class="btn btn-danger  lg-contact bg-white text-dark">REQUEST A QUOTE</a>
         </div>
         <script src="nav.js"></script>
     </nav>
