@@ -831,3 +831,6 @@ header {
   height: 210px;
   width: 185px !important;
 }
+.trust .partners__item img {
+  width: 100% !important;
+}
